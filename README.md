@@ -12,9 +12,9 @@ Additional features:
 	
  	• Make a folder(filter, that combines notes under name/key)
   	• Save, retrieve all notes and "folders" in/from DB (Mongo DB, because it is document based DB). 
-   	**I need a server side for that: when page is closed and the session is over, user can retrieve saved notes from DB and do stuff with them.
+   	** I need a server side for that: when page is closed and the session is over, user can retrieve saved notes from DB and do stuff with them.
    	• Add actual description to the note (as notes in typicall mobile app)
-    	** Add button to create an "object"(description), where description is connected to note by "title"/note's name, that user made before.
+    ** Add button to create an "object"(description), where description is connected to note by "title"/note's name, that user made before.
 
 
 Tech stack for this project:
