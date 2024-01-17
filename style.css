@@ -19,6 +19,7 @@ main{
 
 li{
     list-style: none;
+    justify-content: space-evenly;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
@@ -27,6 +28,7 @@ li{
 
 li:hover{
     cursor: pointer;
+    justify-content: space-evenly;
     background-color: #244fd2;
     color: white;
     transition: 0.5s;
