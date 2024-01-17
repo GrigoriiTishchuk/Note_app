@@ -17,18 +17,59 @@ main{
     border: tomato 1px solid;
 }
 
-li{
+#newTask{
+    padding: 5px;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+
+.btn{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+ul li{
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
     background-color: #f0f0f0;
 }
 
-li:hover{
+ul li button{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+ul li:hover{
     cursor: pointer;
-    justify-content: space-evenly;
     background-color: #244fd2;
     color: white;
     transition: 0.5s;
