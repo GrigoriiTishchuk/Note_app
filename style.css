@@ -46,6 +46,14 @@ main{
     letter-spacing: 0.5px;
 }
 
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #244fd2;
+    color: white;
+    transition: 0.5s;
+}
+
 ul li{
     list-style: none;
     justify-content: space-between;
